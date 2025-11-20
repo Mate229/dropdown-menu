@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu icon */
+.horizontal {
+    display: block;
+}
+
+.vertical {
+    display: none;
+}
+
+.show .horizontal {
+    display: none;
+}
+
+.show .vertical {
+    display: block;
+}
+
+.change .horizontal {
+    display: none;
+}
+
+.change .vertical {
+    display: block;
+}
+/* fin */
+
+/* Items */
+#items {
+    display: none;
+}
+
+.show #items {
+    display: block;
+}
+
+.change #items {
+    display: block;
+}
+/* fin */
+
+
+#items > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+}
+
+#icons {
+    width: fit-content;
+    background-color: aliceblue;
+    padding: 10px;
+}
